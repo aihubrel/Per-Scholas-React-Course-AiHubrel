@@ -1,50 +1,263 @@
+/**general css**/
+#linkIconsMB{
+  display: none;
+}
+
 h1 {
-  margin: 0;
+margin: 0;
+color: white;
 }
 
-.big-heading {
-  font-family: Verdana;
+h1 span {
+  color: white;
+  font-size: 30px;
+  padding-right: 40px;
 }
 
-.section-heading {
-  /* Add your own font here */
+h2{
+  font-size: 120%;
+  font-weight: bold;
+  color:rgb(10, 140, 226)
 }
 
-.nav__list {
-
+p {
+  color:rgb(255, 255, 255);
 }
 
-.nav__list_item {
-
+a {
+  color:rgb(226, 250, 11);
+  text-decoration: none;
 }
+
 
 .page {
+  font-family: Arial, sans-serif;
+}
 
+section{
+  border-top: rgb(133, 98, 3) solid 0.5px;
+  border-top: rgb(133, 98, 3) solid 0.5px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/**heading**/
+header{
+  overflow: hidden;
+  display: flex;
+  border-top: rgb(133, 98, 3) solid 0.5px;
+  height: 70px;
 }
 
 .page__header {
-  background-color: aqua;
-
+  padding-top: 10px;
+  background-color: rgb(1, 21, 51);
 }
+
+#logo{
+  width: 80px;
+}
+
+#logo img{
+  width: 50px;
+  margin-top:10px;
+  margin-left: 20px;
+}
+
+
+/**navigation**/
+.nav{
+  clear: both;
+  margin-top: 20px;
+  margin:auto;
+}
+
+.nav__list-item{
+  list-style: none;
+  float:left;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.nav__list-item a{
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+}
+
+.nav__list-item a:hover{
+  color: rgb(218, 120, 120);
+  border:white 1px solid;
+  border-radius: 5%;
+}
+
+/**content for all three**/
 .page__content {
-  background-color: beige;
-
+  clear: both;  
+  display: flex;
+  justify-content: space-between;
 }
 
+/**left content**/
 .left-content {
-  background-color: burlywood;
-
+  background-color:white;
+  width: 5%;
+  padding-left: 30px;
 }
 
+#linkIconsPC {
+  position: fixed;
+  left:2%;
+  top: 400px;
+}
+
+#linkIconsPC a :hover{
+  transform: scale(1.5);
+}
+
+/**right content**/
 .right-content {
-  background-color: burlywood;
+background-color:white;
+width: 5%;
+padding-left: 10px;
+}
+
+/**main content**/
+.big-heading {
+  text-align: center;  
+  font-family: Verdana;
 }
 
 .main-content {
+width: 90%;
+background-color: rgb(49, 23, 121);
+}
 
+.main-content img{
+  filter: grayscale(90%);
+  width: 200px;
+}
+
+.main-content img:hover{
+  filter: grayscale(0%);
 }
 
 .main-content__section {
-  background-color: cornsilk;
-
+background-color: rgb(24, 3, 82);
+background-size: auto;
+padding-left: 20px;
 }
+
+#hero{
+  clear:both;
+  font-size: 150%;
+}
+
+#hello{
+  padding-top: 20px;
+  text-align: center;
+}
+
+#hello img{
+  width: 100px;
+  filter: grayscale(0%);
+}
+
+#email{
+  text-align: center;
+  color: lightcoral;
+}
+
+#email img, #contact img{
+  width: 50px;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+
+#email a :hover, #contact a :hover  {
+  transform: scale(1.5);
+}
+
+#about h2, #experience h2, #works h2, #contact h2{
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+}
+
+
+#contact span{
+  font-size: bold;
+  color:rgb(226, 250, 11);
+}
+
+#worksWrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#works {
+  text-align: center;
+}
+
+#works img {
+  width: 320px;
+}
+
+#works video{
+  width: 320px;
+  height: 240px;
+}
+
+#works h3{
+  font-weight: bold;
+  color: #ffae00;
+  font-size: 95%;
+}
+
+/** Intro Section **/
+#intro{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(55, 25, 136);
+  color:rgb(179, 181, 182);
+  padding-bottom: 0;
+}
+
+#introPic{
+  width: 20%;
+}
+
+#introEducation{
+  width: 40%;
+}
+
+#introSkill{
+  width: 40%;
+}
+
+#arrow img{
+  width: 40px;
+  position: fixed;
+  top:780px;
+  margin: auto;
+}
+
+#arrow :hover{
+  width: 45px;
+}
+
+/**return**/
+#returnNav{
+  text-align: center;
+  border-top: rgb(216, 162, 12) solid 0.5px;
+}
+
+/*
+*{
+  outline: 1px solid red;   
+ }
+*/

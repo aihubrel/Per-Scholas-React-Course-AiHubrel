@@ -1,0 +1,21 @@
+#linkIconsMB{
+    display: none;
+}
+
+
+#worksWrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+}
+
+
+#introPic{
+    align-items: flex-end;
+    display: flex;
+}
+
+.main-content img{
+    filter: grayscale(90%);
+    width:90%;
+}

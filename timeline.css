@@ -1,0 +1,54 @@
+/**CSS for Timeline **/
+.container ul,  .container li{
+  list-style: none;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  background: #eaf6ff;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+
+.container h1{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(24, 3, 82);
+}
+
+.container h3{
+ font-size: 90%;
+}
+
+.sessions{
+  border-radius: 12px;
+  position: relative;
+}
+
+.container li{
+  padding-bottom: 1.5rem;
+  border-left: 1px solid #abaaed;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+
+}
+.time{
+  color: #ffae00;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  }
+
+
+.container p{
+  color: #4f4f4f;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin-top:0.4rem;
+}

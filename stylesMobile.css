@@ -1,0 +1,132 @@
+#linkIconsPC{
+    display: none;
+}
+
+/** heder **/
+header{
+    overflow: hidden;
+    display:inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+.page{
+    text-align: center;
+}
+
+.page__header {
+    background-color: rgb(1, 21, 51);
+}
+
+#logo img{
+margin-left: -1px;
+margin-top: -3px;
+}
+
+
+#logo{
+    float: left;
+}
+
+#linkIconsMB{
+    display: -webkit-inline-flex;
+    float: right;
+    margin-right: 5px;
+}
+
+
+#linkIconsMB img{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    padding-right: 5px;
+}
+
+/**navigation**/
+.nav{
+    clear: both;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    padding-bottom: 10px;
+}
+
+.nav__list-item{
+    list-style: none;
+    float:left;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.nav__list-item a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+.nav__list-item a:hover{
+    color: rgb(218, 120, 120);
+    border:white 1px solid;
+    border-radius: 5%;
+}
+
+
+/**content**/
+
+#intro{
+   text-align: left; 
+   padding-bottom: 10px;
+}
+
+#worksWrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+}
+
+
+.main-content{
+    margin-top: -3px;
+}
+
+.main-content__section{
+    padding-right: 10px;
+}
+
+.left-content{
+  position: fixed;
+}
+
+
+.right-content{
+    display: none;
+}
+
+.main-content {
+    width: 100%;
+}
+
+#introPic{
+display: none;
+}
+
+
+#experience{
+    padding-right: 5%;
+}
+
+
+#works img {
+    width: 250px;
+}
+
+#works video{
+    width: 250px;
+    height: 160px;
+}
+
+/*
+*{
+    outline: 1px solid red;   
+   }
+*/
