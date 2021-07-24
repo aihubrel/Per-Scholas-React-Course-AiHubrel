@@ -1,3 +1,4 @@
+/** hide link icons for PC **/
 #linkIconsPC{
     display: none;
 }
@@ -23,7 +24,6 @@ margin-left: -1px;
 margin-top: -3px;
 }
 
-
 #logo{
     float: left;
 }
@@ -33,7 +33,6 @@ margin-top: -3px;
     float: right;
     margin-right: 5px;
 }
-
 
 #linkIconsMB img{
     -webkit-filter: grayscale(1) invert(1);
@@ -72,7 +71,6 @@ margin-top: -3px;
 
 
 /**content**/
-
 #intro{
    text-align: left; 
    padding-bottom: 10px;
@@ -83,7 +81,6 @@ margin-top: -3px;
     justify-content: space-around;
     flex-flow: column wrap;
 }
-
 
 .main-content{
     margin-top: -3px;
@@ -114,7 +111,6 @@ display: none;
 #experience{
     padding-right: 5%;
 }
-
 
 #works img {
     width: 250px;
