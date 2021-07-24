@@ -1,8 +1,9 @@
-/**general css**/
+/** hiding Icons for mobile **/
 #linkIconsMB{
   display: none;
 }
 
+/**general css**/
 h1 {
 margin: 0;
 color: white;
@@ -28,7 +29,6 @@ a {
   color:rgb(226, 250, 11);
   text-decoration: none;
 }
-
 
 .page {
   font-family: Arial, sans-serif;
@@ -64,7 +64,6 @@ header{
   margin-top:10px;
   margin-left: 20px;
 }
-
 
 /**navigation**/
 .nav{
