@@ -32,6 +32,9 @@ a {
 
 .page {
   font-family: Arial, sans-serif;
+  display:flex;
+  flex-flow: column;
+  justify-content:space-between;
 }
 
 section{
